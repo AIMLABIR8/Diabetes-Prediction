@@ -274,6 +274,15 @@ This project is for educational use only.
 
 Developed with ❤️ by **Abir Rakshit**
 
+AI, Machine Learning, Python & Data Science Enthusiast
+
+I built this project to showcase:
+
+* Full-stack development skills
+* AI/ML integration capability
+* Real-world problem solving
+* Scalable system design
+
 ---
 
 ## ⭐ Support
