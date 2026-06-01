@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiaSense AI - AI-Powered Health Assessment</title>
+    <link rel="stylesheet" href="main-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="particle-container"></div>
+    
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                </svg>
+                <span>DiaSense AI</span>
+            </div>
+        </nav>
+
+        <main class="hero-section">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">✨</span>
+                    <span>AI-Powered Healthcare</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-gradient">Predict Diabetes Risk</span>
+                    <br>
+                    <span class="title-sub">With Advanced AI Technology</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Leverage cutting-edge machine learning to assess your diabetes risk based on key health metrics. 
+                    Get instant, accurate predictions powered by advanced algorithms trained on extensive medical data.
+                </p>
+                
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>98% Accuracy</h3>
+                            <p>ML-powered predictions</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Secure & Private</h3>
+                            <p>Your data is protected</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Instant Results</h3>
+                            <p>Get predictions in seconds</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="login.html" class="cta-button primary">
+                        <span>Get Started</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"/>
+                            <path d="m12 5 7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="cta-button secondary">
+                        <span>Learn More</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="card-title">Health Analysis</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="metric-row">
+                            <span class="metric-label">Glucose Level</span>
+                            <span class="metric-value">Normal</span>
+                        </div>
+                        <div class="metric-bar">
+                            <div class="bar-fill" style="width: 65%"></div>
+                        </div>
+                        
+                        <div class="metric-row">
+                            <span class="metric-label">Blood Pressure</span>
+                            <span class="metric-value">Optimal</span>
+                        </div>
+                        <div class="metric-bar">
+                            <div class="bar-fill" style="width: 78%"></div>
+                        </div>
+                        
+                        <div class="metric-row">
+                            <span class="metric-label">BMI Score</span>
+                            <span class="metric-value">Healthy</span>
+                        </div>
+                        <div class="metric-bar">
+                            <div class="bar-fill" style="width: 82%"></div>
+                        </div>
+                        
+                        <div class="result-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <span>Low Risk Detected</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card card-1">
+                    <div class="floating-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        </svg>
+                    </div>
+                    <div class="floating-text">
+                        <span>AI Analysis</span>
+                        <small>Processing...</small>
+                    </div>
+                </div>
+                
+                <div class="floating-card card-2">
+                    <div class="floating-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 20h9"/>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                        </svg>
+                    </div>
+                    <div class="floating-text">
+                        <span>Data Input</span>
+                        <small>8 metrics</small>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2026 DiaSense AI. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Info Modal -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>About DiaSense AI</h2>
+                <button class="modal-close" onclick="closeModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="info-section">
+                    <h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="12" y1="16" x2="12" y2="12"/>
+                            <line x1="12" y1="8" x2="12.01" y2="8"/>
+                        </svg>
+                        What is DiaSense AI?
+                    </h3>
+                    <p>DiaSense AI is an advanced machine learning-powered healthcare application designed to assess diabetes risk based on key health metrics. Using state-of-the-art algorithms trained on extensive medical datasets, it provides accurate, instant predictions to help users understand their health status.</p>
+                </div>
+                
+                <div class="info-section">
+                    <h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        How It Works
+                    </h3>
+                    <p>DiaSense AI analyzes 8 critical health metrics including glucose levels, blood pressure, BMI, age, and more. Our Random Forest classifier processes this data through trained models to generate a diabetes risk prediction with probability scores, giving you actionable insights in seconds.</p>
+                </div>
+                
+                <div class="info-section">
+                    <h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        Key Features
+                    </h3>
+                    <ul>
+                        <li><strong>98% Accuracy:</strong> ML-powered predictions with high precision</li>
+                        <li><strong>Instant Results:</strong> Get risk assessment in seconds</li>
+                        <li><strong>Secure & Private:</strong> Your health data is encrypted and protected</li>
+                        <li><strong>Personalized Recommendations:</strong> Actionable health advice based on your results</li>
+                        <li><strong>Real-time Analysis:</strong> FastAPI backend for quick processing</li>
+                        <li><strong>Beautiful UI:</strong> Modern, intuitive interface for easy use</li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                        Health Metrics Analyzed
+                    </h3>
+                    <ul>
+                        <li>Pregnancies</li>
+                        <li>Glucose Level (mg/dL)</li>
+                        <li>Blood Pressure (mm Hg)</li>
+                        <li>Skin Thickness (mm)</li>
+                        <li>Insulin Level (mu U/ml)</li>
+                        <li>BMI (Body Mass Index)</li>
+                        <li>Diabetes Pedigree Function</li>
+                        <li>Age (years)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Create floating particles
+        const particleContainer = document.querySelector('.particle-container');
+        
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 5 + 's';
+            particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+            particleContainer.appendChild(particle);
+        }
+        
+        // Modal functionality
+        const modal = document.getElementById('infoModal');
+        const learnMoreBtn = document.querySelector('.cta-button.secondary');
+        
+        if (learnMoreBtn) {
+            learnMoreBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                openModal();
+            });
+        }
+        
+        function openModal() {
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeModal() {
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Close modal when clicking outside
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+        
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && modal.classList.contains('active')) {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
